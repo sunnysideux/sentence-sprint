@@ -1,0 +1,12 @@
+# Copy these values into your local, uncommitted Gradle properties before
+# building the Google Play upload bundle. Do not commit real passwords or keys.
+#
+# Recommended local file options:
+# - %USERPROFILE%\.gradle\gradle.properties
+#
+# Do not paste these secrets into the tracked project gradle.properties file.
+
+SENTENCE_BUILDER_UPLOAD_STORE_FILE=C:\\Users\\YOUR_USER\\keys\\sentence-sprint-upload.jks
+SENTENCE_BUILDER_UPLOAD_STORE_PASSWORD=replace_with_keystore_password
+SENTENCE_BUILDER_UPLOAD_KEY_ALIAS=sentence-sprint-upload
+SENTENCE_BUILDER_UPLOAD_KEY_PASSWORD=replace_with_key_password
