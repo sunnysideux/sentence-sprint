@@ -162,35 +162,6 @@ Progress is stored locally on the device in SharedPreferences:
 
 No personal data is collected. No data is transmitted to any server. No ads or analytics SDKs are used. The app works offline.
 
-## Google Play Preparation
-
-- App title: Sentence Sprint
-- Package name: `com.sunnyapps.sentencebuilder`
-- Target age: all ages 6 and above
-- Version code: 2
-- Version name: 1.0.1
-- Target SDK: 35
-- No ads
-- No login or accounts
-- No personal data collection
-- No analytics SDK
-- No internet permission
-- No unnecessary permissions
-- First release track: Internal testing
-- First production countries: India, United States, United Kingdom, Canada, Australia, New Zealand, Singapore, United Arab Emirates
-- Privacy policy source files: `playstore/privacy_policy_draft.md` and `playstore/privacy_policy.html`
-
-Before production release:
-
-- Create a private release signing key and keep it outside source control.
-- Generate an Android App Bundle with `./gradlew clean test lintDebug assembleRelease bundleRelease`.
-- Complete Play Console Data Safety based on the final implementation.
-- Complete Target Audience and Content settings for all ages 6+, including children.
-- Complete the Content Rating Questionnaire.
-- Replace `REPLACE_WITH_PLAY_ACCOUNT_EMAIL` in the privacy policy files, publish the privacy policy through GitHub Pages, and paste that public URL into Play Console.
-- Upload final store listing assets from the `playstore/` folder.
-- Test through an internal or closed testing track before production release.
-- Use `playstore/play_console_submission_checklist.md` as the Play Console checklist.
 
 ## Known Limitations
 
