@@ -6,7 +6,7 @@ Learners arrange word-group cards in the correct order to build meaningful Engli
 
 The app is rebuilt as a clean Android project inspired by a Scratch prototype, not as a line-by-line port. It is fully offline, has no login, no ads, no analytics, no Firebase, and no unnecessary permissions.
 ### To install
-
+Download APK: https://github.com/sunnysideux/sentence-sprint/releases/download/v1.0.0/Sentence.Sprint.apk
 
 ## We are looking for android app testers!
 In case you are available for testing this (or any other ed-tech related apps/game):
