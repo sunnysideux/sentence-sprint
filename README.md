@@ -6,17 +6,19 @@ Sentence Sprint is a native Android educational game for school-age learners, wi
 
 The app is rebuilt as a clean Android project inspired by a Scratch prototype, not as a line-by-line port. It is fully offline, has no login, no ads, no analytics, no Firebase, and no unnecessary permissions.
 
-## Technology Stack
+## We are looking for android app testers!
+In case you are available for testing this (or any other ed-tech related apps/game):
+1. Join the google group: https://groups.google.com/g/ed_tech_apps/
+2. Download the game for Android: https://play.google.com/store/apps/details?id=com.sunnyapps.sentencebuilder
+   (OR) On web: https://play.google.com/apps/testing/com.sunnyapps.sentencebuilder
 
-- Kotlin
-- Jetpack Compose
-- Material 3
-- Navigation Compose
-- Android TextToSpeech
-- SharedPreferences for local progress
-- Local offline sentence data
-- JUnit unit tests
 
+### Credits
+The design of the game was isnpired from a game designed to teach sentence construction. Here's the corresponding publication:
+Design and Development of a Sentence Construction Game for Deaf and Hard of Hearing (DHH) Users: A Qualitative Usability Study. (2023). International Conference on Computers in Education. https://doi.org/10.58459/icce/2023/1094
+
+
+# Technical Info.
 ## Build And Run
 
 Open the project in Android Studio, let Gradle sync, then run the `app` configuration on an emulator or Android device.
