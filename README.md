@@ -1,10 +1,10 @@
 # Sentence Sprint
 
 Public source package for `Sentence Sprint`.
-Sentence Sprint is a native Android educational game for school-age learners. 
-Learners arrange word-group cards in the correct order to build meaningful English sentences.
+Sentence Sprint is a native Android educational game for school-age learners where they arrange word-group cards in the correct order to build meaningful English sentences.
 
-The app is rebuilt as a clean Android project inspired by a Scratch prototype, not as a line-by-line port. It is fully offline, has no login, no ads, no analytics, no Firebase, and no unnecessary permissions.
+The app is rebuilt as a clean Android project inspired by a Scratch prototype (Scratch file name: sentence_sprint_scratch.sb3). It is fully offline, has no login, no ads, and no unnecessary permissions.
+
 ### To install
 Download APK: https://github.com/sunnysideux/sentence-sprint/releases/download/v1.0.0/Sentence.Sprint.apk
 
